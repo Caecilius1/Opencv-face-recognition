@@ -3,7 +3,7 @@ import cv2 as cv
 import numpy as np
 
 people = ['Alex de Souza','Andrew Garfield', 'Aragorn', 'Ben Affleck', 'Mehmet']
-DIR = r'C:\Users\Caecilius\Desktop\opencv\Faces'
+DIR = r'C:\Users\Caecilius\Documents\GitHub\Opencv-face-recognition\opencv\Faces'
 
 haar_cascade = cv.CascadeClassifier('haar_face.xml')
 

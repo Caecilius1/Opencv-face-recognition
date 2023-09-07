@@ -14,7 +14,7 @@ face_recognizer = cv.face.LBPHFaceRecognizer.create()
 face_recognizer.read('face_trained.yml')
 
 
-img = cv.imread(r'C:\Users\Caecilius\Desktop\opencv\Faces\Aragorn\340x1912xaragorn-ile-tanidigimiz-viggo-mortensen-wolverine-rolunu-neden-reddettigini-acikladi.jpg')
+img = cv.imread(r'C:\Users\Caecilius\Documents\GitHub\Opencv-face-recognition\opencv\Faces\Mehmet\WIN_20230902_12_24_29_Pro.jpg')
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('Person', gray)
 
